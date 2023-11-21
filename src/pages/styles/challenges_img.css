@@ -1,0 +1,114 @@
+@media (max-width: 500px) {
+    .ch_img {
+      background-color: #005C8B;
+      position: absolute;
+      height: 150%;
+      width: 100%;
+    }
+  
+    .ch_img p {
+        padding: 5%;
+        text-align: center;
+        color: #fff;
+        font-size: 18px; 
+      }
+      .ch_img img {
+        width: 80%;
+        margin-left: 10%;
+      }
+      .ch_img input {
+        margin-left: 20%;
+        padding: 3%;
+        border-radius: 10px;
+        font-size: 16px;
+        margin-bottom: 8%;
+      }
+    
+      #back_ch_img {
+        font-size: 14px;
+        text-decoration: none;
+        color: #005C8B;
+        background-color: #ffffff;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 29%;
+        padding: 12px;
+      }
+    
+      #next_ch_img {
+        font-size: 14px;
+        text-decoration: none;
+        color: #005C8B;
+        background-color: #ffffff;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 10%; 
+        padding: 12px;
+      }
+  
+      #titulo {
+        padding: 1%;
+    }
+    #input_hacker {
+        margin-top: 5%;
+    }
+  }
+  
+  @media (min-width: 501px) {
+    .ch_img {
+        background-color: #005C8B;
+        position: absolute;
+        margin-left: 30%;
+        width: 40%;
+        height: 180%;
+    }
+    
+    .ch_img p {
+        padding: 5%;
+        text-align: center;
+        color: #fff;
+        font-size: 18px; 
+      }
+      .ch_img img {
+        margin-top: 5%;
+        width: 80%;
+        margin-left: 10%;
+      }
+      .ch_img input {
+        margin-left: 28%;
+        padding: 3%;
+        border-radius: 10px;
+        font-size: 16px;
+        margin-bottom: 8%;
+      }
+    
+      #back_ch_img {
+        font-size: 14px;
+        text-decoration: none;
+        color: #005C8B;
+        background-color: #ffffff;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 33%;
+        padding: 12px;
+      }
+    
+      #next_ch_img {
+        font-size: 14px;
+        text-decoration: none;
+        color: #005C8B;
+        background-color: #ffffff;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 10%; 
+        padding: 12px;
+      }
+  
+      #titulo {
+        padding: 1%;
+    }
+    #input_hacker {
+        margin-top: 5%;
+    }
+  }
+  

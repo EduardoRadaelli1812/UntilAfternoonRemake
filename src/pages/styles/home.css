@@ -1,0 +1,79 @@
+@media (min-width: 500px) {
+    .home {
+      height: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); 
+      background-image: url(../../images/inicial.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .home p {
+      color: #fff;
+      text-align: center;
+      font-size: 16px;
+      letter-spacing: 2px;
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 115%;
+      margin-bottom: 15%;
+    }
+  
+    #botao_play,
+    #botao_contato,
+    #botao_sobre {
+      position: relative; 
+      display: block; 
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      background-color: #005c8b;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+      margin: 10px auto;
+      padding: 1%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .home {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: url(../../images/inicial.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: black;
+    }
+  
+    .home p {
+      color: #fff;
+      text-align: center;
+      font-size: 16px;
+      letter-spacing: 2px;
+      margin-top: 115%;
+      margin-bottom: 15%;
+    }
+  
+    #botao_play,
+    #botao_contato,
+    #botao_sobre {
+      position: relative; 
+      display: block; 
+      text-align: center; 
+      text-decoration: none;
+      color: white;
+      background-color: #005c8b;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+      margin: 10px auto; 
+      padding: 1%;
+    }
+  }
+  

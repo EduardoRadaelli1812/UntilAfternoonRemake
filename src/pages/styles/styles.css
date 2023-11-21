@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap');
+@import 'home.css';
+@import 'narrativa.css';
+@import 'videos.css';
+@import 'textos.css';
+@import 'challenges_links.css';
+@import 'choose.css';
+@import 'question.css';
+@import 'qrcode.css';
+@import 'challenges_img.css';
+@import 'c5.css';
+@import 'c1.css';
+@import 'usuario.css';
+
+body {
+  background-color: #1c574f; 
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
